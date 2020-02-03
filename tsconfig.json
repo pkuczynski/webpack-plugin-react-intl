@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "declaration": true,
+        "lib": ["es6"],
+        "outDir": "./lib",
+
+        // Strict Type-Checking Option
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": false,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": false,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+
+        // Additional Checks
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+
+        // Module Resolution Options
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+
+        // Experimental Options
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    },
+    "include": ["./src/**/*"]
+}

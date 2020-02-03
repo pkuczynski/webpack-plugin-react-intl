@@ -1,0 +1,46 @@
+{
+    "name": "webpack-plugin-react-intl",
+    "version": "1.0.0",
+    "description": "Bundle react-intl messages into webpack build with hot reload and caching",
+    "author": "Piotr Kuczynski <piotr.kuczynski@gmail.com>",
+    "license": "MIT",
+    "keywords": [
+        "webpack",
+        "react-intl",
+        "react",
+        "i18n"
+    ],
+    "homepage": "https://github.com/pkuczynski/webpack-plugin-react-intl#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pkuczynski/webpack-plugin-react-intl.git"
+    },
+    "bugs": {
+        "url": "https://github.com/pkuczynski/webpack-plugin-react-intl/issues"
+    },
+    "main": "./lib/index.js",
+    "types": "./lib/index.d.ts",
+    "files": [
+        "lib/**/*",
+        "LICENSE",
+        "README.md"
+    ],
+    "scripts": {
+        "watch": "tsc -w",
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "peerDependencies": {
+        "webpack": ">=4.0.0"
+    },
+    "dependencies": {
+        "glob": "^7.1.6"
+    },
+    "devDependencies": {
+        "@types/glob": "^7.1.1",
+        "@types/node": "^13.5.3",
+        "@types/webpack": "^4.41.3",
+        "react-intl": "^3.11.0",
+        "typescript": "^3.7.5"
+    }
+}

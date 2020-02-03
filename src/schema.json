@@ -1,0 +1,19 @@
+{
+    "title": "webpack-plugin-react-intl options",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "source": {
+            "description": "Path to the messages extracted by babel-plugin-react-intl",
+            "type": "string"
+        },
+        "destination": {
+            "description": "Path to the location of aggregated messages",
+            "type": "string"
+        },
+        "filename": {
+            "description": "Name of the outputted file",
+            "type": "string"
+        }
+    }
+}
