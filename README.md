@@ -1,4 +1,6 @@
 # webpack-plugin-react-intl
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpkuczynski%2Fwebpack-plugin-react-intl.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpkuczynski%2Fwebpack-plugin-react-intl?ref=badge_shield)
+
 
 Webpack plugin, which aggregates messages extracted by [babel-plugin-react-intl](https://github.com/formatjs/formatjs/tree/master/packages/babel-plugin-react-intl) into single flat json translations file to be committed along the source code.
 
@@ -89,3 +91,6 @@ This plugin was heavily inspired and covers functionality (with an extra spice) 
 ## License
 
 This software is [MIT Licensed](LICENSE)
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpkuczynski%2Fwebpack-plugin-react-intl.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpkuczynski%2Fwebpack-plugin-react-intl?ref=badge_large)
