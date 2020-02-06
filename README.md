@@ -1,4 +1,5 @@
 # webpack-plugin-react-intl
+![npm](https://img.shields.io/npm/v/webpack-plugin-react-intl)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpkuczynski%2Fwebpack-plugin-react-intl.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpkuczynski%2Fwebpack-plugin-react-intl?ref=badge_shield)
 
 
